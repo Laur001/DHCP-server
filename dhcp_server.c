@@ -69,6 +69,7 @@ typedef struct {
 
 volatile sig_atomic_t keep_running = 1;
 
+
 IPTableEntry ip_table[MAX_LEASES];
 int ip_table_size = 0;
 pthread_mutex_t lease_mutex = PTHREAD_MUTEX_INITIALIZER;
@@ -657,3 +658,4 @@ void log_message(const char *format, ...) {
     fprintf(stdout, "[%s] %s\n", timestamp, log_buffer);
     fflush(stdout);
 }
+
