@@ -1,0 +1,6 @@
+ip_range_start=192.168.1.70
+ip_range_end=192.168.1.73
+lease_duration=3600
+gateway=192.168.1.1
+dns_server=8.8.8.8
+subnet_mask=255.255.0.0
